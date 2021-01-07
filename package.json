@@ -1,5 +1,5 @@
 {
-  "name": "biodata-web",
+  "name": "app-biodata",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch": "react-scripts start -- --watch"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.10",
+    "react-hot-loader": "^4.13.0"
   }
 }
