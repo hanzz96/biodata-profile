@@ -1,6 +1,8 @@
+
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import MyComp from './MyComp';
 function App() {
   return (
     <div className="App">
@@ -15,8 +17,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Reactsasdasd
         </a>
+      <MyComp></MyComp>
       </header>
     </div>
   );
