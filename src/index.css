@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 :root {
-
   width: 100vw;
   height: 100vh;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -27,6 +26,8 @@
 
 body {
   margin: 0;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
 }
 
 a {
