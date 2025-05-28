@@ -2,6 +2,8 @@ import { GamingRoomBeta } from "./GamingRoomBeta";
 import { motion } from "framer-motion-3d";
 import { useEffect, useRef, useState } from "react";
 import { useControls } from "leva";
+import { GamingRoomBetaV2 } from "./GamingRoomBetaV2";
+import { FixingGamingRoomBetaV2 } from "./FixingGamingRoomBetaV2";
 
 function Light() {
   console.log(import.meta.env.VITE_CONTROLS_ENV)
@@ -102,7 +104,9 @@ export const Experience = (props) => {
         <fog attach="fog" args={["#d0d0d0", 1, 35]} />
         {/* <Sky inclination={0.7} scale={100} /> */}
         <ambientLight intensity={1} />
-        <GamingRoomBeta></GamingRoomBeta>
+        {/* <GamingRoomBeta></GamingRoomBeta> */}
+        <GamingRoomBetaV2></GamingRoomBetaV2>
+        {/* <FixingGamingRoomBetaV2></FixingGamingRoomBetaV2> */}
       </motion.group>
     </>
   );
